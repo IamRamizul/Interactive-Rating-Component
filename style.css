@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+      background-color: hsl(216, 12%, 8%);
+      font-family: Overpass, sans-serif;
+    }
+
+.container {
+      padding: 2.5%;
+      height: 19.8rem;
+      width: 21.8rem;
+      background-color: hsl(213, 19%, 18%);
+      color: white;
+      border-radius: 5%;
+      }
+    
+.buttonClicked{
+  background-color: hsl(25, 97%, 53%);
+}
+
+h2{
+      font-weight: 700;
+    }
+p{
+  font-size: 0.9 rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    height: 23rem;
+    width: 21.8rem;
+    margin: auto;
+    padding: 2%;
+  }
+
+}
